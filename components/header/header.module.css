@@ -1,0 +1,140 @@
+.header {
+    color: #000;
+    background: #c0d7dbf3;
+    width: 100vw;
+    position: fixed;
+}
+
+.header>.container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.area_logo_header .logo {
+    display: block;
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
+}
+
+.area_nav_header {
+    margin: 0 40px 0 auto;
+}
+
+.list_nav_header {
+    display: flex;
+    align-items: center;
+}
+
+.list_nav_header>li+li {
+    margin-left: 40px
+}
+
+.list_nav_header a {
+    color: #000;
+}
+
+.lists {
+    position: relative;
+}
+
+.list1,
+.list2,
+.list3,
+.list4 {
+    display: inline-block;
+    color: #111;
+}
+
+.list1::after,
+.list2::after,
+.list3::after,
+.list4::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #f1afa9;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s;
+}
+
+.list1:hover::after,
+.list2:hover::after,
+.list3:hover::after,
+.list4:hover::after {
+    transform: scale(1, 1);
+}
+
+@media screen and (max-width: 767px) {
+    .header>.container {
+        height: 70px;
+        display: block;
+    }
+
+    .list1,
+    .list2,
+    .list3,
+    .list4 {
+        font-size: 14px;
+    }
+
+    .area_logo_header .logo {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 22px;
+    }
+
+    .list_nav_header {
+        justify-content: space-around;
+        margin-top: 5px;
+    }
+
+    .area_nav_header {
+        margin: 0 0 0 1vw;
+    }
+
+    .list1::after,
+    .list2::after,
+    .list3::after,
+    .list4::after {
+        bottom: -2px;
+        height: 1.5px;
+    }
+   
+}
+
+@media screen and (max-width: 540px) {
+
+
+    .header>.container {
+        height: 65px;
+    }
+
+    .list1,
+    .list2,
+    .list3,
+    .list4 {
+        font-size: 11px;
+    }
+
+    .list1::after,
+    .list2::after,
+    .list3::after,
+    .list4::after {
+        bottom: 0px;
+        height: 1px;
+    }
+
+
+    .area_logo_header .logo {
+        font-size: 20px;
+    }
+
+   
+}
