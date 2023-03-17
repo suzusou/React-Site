@@ -40,18 +40,12 @@
     position: relative;
 }
 
-.list1,
-.list2,
-.list3,
-.list4 {
+.lists a {
     display: inline-block;
     color: #111;
 }
 
-.list1::after,
-.list2::after,
-.list3::after,
-.list4::after {
+.lists a::after{
     position: absolute;
     bottom: -4px;
     left: 0;
@@ -64,10 +58,7 @@
     transition: transform .3s;
 }
 
-.list1:hover::after,
-.list2:hover::after,
-.list3:hover::after,
-.list4:hover::after {
+.lists a:hover::after{
     transform: scale(1, 1);
 }
 
@@ -77,10 +68,7 @@
         display: block;
     }
 
-    .list1,
-    .list2,
-    .list3,
-    .list4 {
+    .lists a{
         font-size: 14px;
     }
 
@@ -99,10 +87,7 @@
         margin: 0 0 0 1vw;
     }
 
-    .list1::after,
-    .list2::after,
-    .list3::after,
-    .list4::after {
+    .lists a::after{
         bottom: -2px;
         height: 1.5px;
     }
@@ -116,17 +101,11 @@
         height: 65px;
     }
 
-    .list1,
-    .list2,
-    .list3,
-    .list4 {
+    .lists a {
         font-size: 11px;
     }
 
-    .list1::after,
-    .list2::after,
-    .list3::after,
-    .list4::after {
+    .lists a::after {
         bottom: 0px;
         height: 1px;
     }

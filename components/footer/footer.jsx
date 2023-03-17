@@ -1,31 +1,34 @@
 import styles from '/components/footer/footer.module.css'
+import Link from 'next/link'
+
 
 export default function Footer() {
-  return (
-    <footer className={styles.footer}>
+    return (
+        <footer className={styles.footer}>
             <div className={styles.social}>
-                <a href="#"><i className="fab fa-instagram"></i></a>
-                <a href="#"><i className="fab fa-twitter"></i></a>
-                <a href="https://github.com/suzusou"><i className="fab fa-github"></i></a>
-                <a href="#"><i className="fab fa-facebook"></i></a>
+                <Link href="/" legacyBehavior><a> <i className="fab fa-instagram"></i></a></Link>
+                <Link href="/" legacyBehavior><a><i className="fab fa-twitter"></i></a></Link>
+                <Link href="https://github.com/suzusou" legacyBehavior><a><i className="fab fa-github"></i></a></Link>
+                <Link href="/" legacyBehavior><a><i className="fab fa-facebook"></i></a></Link>
             </div>
 
             <ul className={styles.list}>
                 <li>
-                    <a href="#">Section1</a>
+                <Link href="/" > Section1</Link>
                 </li>
                 <li>
-                    <a href="#">Section2</a>
+                <Link href="/" > Section2</Link>
                 </li>
                 <li>
-                    <a href="#">Section3</a>
+                <Link href="/" > Section3</Link>
                 </li>
                 <li>
-                    <a href="#">Section4</a>
+                <Link href="/" > Section4</Link>
                 </li>
                 <li>
-                    <a href="#">Section5</a>
+                <Link href="/" > Section5</Link>
                 </li>
+                
                 <p className={styles.copyright}>
                     S.S-20220219 @ 2023
                 </p>
@@ -33,5 +36,5 @@ export default function Footer() {
 
         </footer>
 
-  )
+    )
 }
