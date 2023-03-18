@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import Header from '/components/header/header'
+import { Header } from '/components/header/header'
 import Contents from '/components/contents/contents'
-import Footer from '/components/footer/footer'
+import { Footer } from '/components/footer/footer'
+import { Breadcrumbs } from '/components/breadcrumbs/breadcrumbs'
 
 export default function Home() {
   return (
@@ -14,9 +15,10 @@ export default function Home() {
       </Head>
 
       < Header />
+      < Breadcrumbs />
       <Contents />
       < Footer />
-      
+
     </>
   )
 }

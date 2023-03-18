@@ -2,7 +2,7 @@ import styles from '/components/footer/footer.module.css'
 import Link from 'next/link'
 
 
-export default function Footer() {
+export function Footer() {
     return (
         <footer className={styles.footer}>
             <div className={styles.social}>
@@ -14,19 +14,16 @@ export default function Footer() {
 
             <ul className={styles.list}>
                 <li>
-                <Link href="/" > Section1</Link>
+                <Link href="/" >Home</Link>
                 </li>
                 <li>
-                <Link href="/" > Section2</Link>
+                <Link href="/" >About</Link>
                 </li>
                 <li>
-                <Link href="/" > Section3</Link>
+                <Link href="/" >Service</Link>
                 </li>
                 <li>
-                <Link href="/" > Section4</Link>
-                </li>
-                <li>
-                <Link href="/" > Section5</Link>
+                <Link href="/" >News</Link>
                 </li>
                 
                 <p className={styles.copyright}>

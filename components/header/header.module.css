@@ -3,6 +3,7 @@
     background: #c0d7dbf3;
     width: 100vw;
     position: fixed;
+    z-index: 1;
 }
 
 .header>.container {

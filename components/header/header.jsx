@@ -1,7 +1,7 @@
 import styles from '/components/header/header.module.css'
 import Link from 'next/link'
 
-export default function Header() {
+export function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.container}>
@@ -16,16 +16,16 @@ export default function Header() {
                 <nav className={styles.area_nav_header}>
                     <ul className={styles.list_nav_header}>
                         <li className={styles.lists}>
-                            <Link href="/" >Section1</Link>
+                            <Link href="/" >Home</Link>
                         </li>
                         <li className={styles.lists}>
-                            <Link href="/" >Section2</Link>
+                            <Link href="/" >About</Link>
                         </li>
                         <li className={styles.lists}>
-                            <Link href="/" >Section3</Link>
+                            <Link href="/" >Service</Link>
                         </li>
                         <li className={styles.lists}>
-                            <Link href="/" >Section4</Link>
+                            <Link href="/" >News</Link>
                         </li>
 
                     </ul>
