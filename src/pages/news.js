@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       < Header />
-      < Breadcrumbs page="Home >" />
+      < Breadcrumbs page="News >"/>
       <Contents />
       < Footer />
 

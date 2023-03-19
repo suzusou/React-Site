@@ -17,13 +17,13 @@ export function Footer() {
                 <Link href="/" >Home</Link>
                 </li>
                 <li>
-                <Link href="/" >About</Link>
+                <Link href="/about" >About</Link>
                 </li>
                 <li>
-                <Link href="/" >Service</Link>
+                <Link href="/service" >Service</Link>
                 </li>
                 <li>
-                <Link href="/" >News</Link>
+                <Link href="/news" >News</Link>
                 </li>
                 
                 <p className={styles.copyright}>

@@ -19,13 +19,13 @@ export function Header() {
                             <Link href="/" >Home</Link>
                         </li>
                         <li className={styles.lists}>
-                            <Link href="/" >About</Link>
+                            <Link href="/about" >About</Link>
                         </li>
                         <li className={styles.lists}>
-                            <Link href="/" >Service</Link>
+                            <Link href="/service" >Service</Link>
                         </li>
                         <li className={styles.lists}>
-                            <Link href="/" >News</Link>
+                            <Link href="/news" >News</Link>
                         </li>
 
                     </ul>

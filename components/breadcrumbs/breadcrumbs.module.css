@@ -1,8 +1,8 @@
 .breadcrumbs {
     position: absolute;
-    top:65px;
+    top: 65px;
     /* background-color: aqua; */
-    color: #000 ;
+    color: #7e7e7e;
     width: 100vw;
     font-size: 12px;
     padding-left: 20px;
@@ -12,8 +12,8 @@
 
 @media screen and (max-width: 767px) {
     .breadcrumbs {
-        top:70px;
+        top: 78px;
         padding-left: 15px;
     }
-   
+
 }
