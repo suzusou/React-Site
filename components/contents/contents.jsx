@@ -1,6 +1,6 @@
 import styles from '/components/contents/contents.module.css'
 
-export  default function Content() {
+export function Contents() {
   return (
     <main>
             <div className={styles.content}>

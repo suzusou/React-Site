@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Header } from '/components/header/header'
-import Contents from '/components/contents/contents'
+import { Contents } from '/components/contents/contents'
 import { Footer } from '/components/footer/footer'
 import { Breadcrumbs } from '/components/breadcrumbs/breadcrumbs'
 
