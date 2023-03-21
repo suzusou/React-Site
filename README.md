@@ -27,6 +27,7 @@ Execute the following command.
 ```
 yarn dev
 ```
+Open http://localhost:3000 with your browser to see the result.
 ## Other
 #### The header and footer designs can be viewed at the following URL. 
 #### https://react-site-weld.vercel.app/  
