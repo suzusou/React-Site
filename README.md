@@ -1,10 +1,9 @@
 <p align="center">
-  <a href="https://nextjs.org/" rel="noopener" target="_blank"><img width="200" src="/public/nextjs-logo.png" alt="nextjs logo"></a>
+  <a href="https://nextjs.org/" rel="noopener" target="_blank"><img width="200" src="/public/nextjs.png" alt="nextjs logo"></a>
 </p>
 
-<h1 align="center">OpenCV-Color-Detection</h1>
+<h1 align="center">React-Site</h1>
 
-# React-Site
 #### Header,Footerのデザイン  
 https://react-site-weld.vercel.app/  
 
