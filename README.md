@@ -6,7 +6,14 @@
 
 I designed the `header and footer` in React.
 
-## If you want to clone source code from github 
+## If you want to clone source code from github  
+#### If you have installed the yarn command, you may skip this step.  
+If you have not yet installed `node.js`, click here.  →　https://nodejs.org/en/download  
+If you have not yet installed the `yarn command`, please execute this command.  
+```
+npm install -g yarn
+```
+#### From this point on, this is essential work.
 First, go to `any directory`.  
 Next, clone the source code. (Execute the following command)  
 ```
