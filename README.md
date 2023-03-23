@@ -5,6 +5,7 @@
 <h1 align="center">React-Site</h1>
 
 I designed the `header and footer` in React.  
+We tried to keep the design as simple as possible.
 #### https://react-site-weld.vercel.app/ 
 
 ## If you want to clone source code from github  
